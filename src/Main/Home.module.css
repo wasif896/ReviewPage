@@ -1,0 +1,585 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+.link{
+  color: #09C950;
+  text-decoration: none;
+}
+.link:hover{
+   color: #09C950;
+}
+section {
+  scroll-margin-top: 80px; 
+}
+
+.homeSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    padding: 12px;
+  }
+  
+  .home h1 {
+    font-weight: 600;
+    font-size: 50px;
+    margin: 0;
+  }
+  
+  .home p {
+
+      margin: 0;
+      font-size: 16px;
+      color: black;
+  }
+  
+  
+  .greenText {
+    color: #09C950;
+  }
+  .advantageText{
+    text-align: start;
+    color: #223A52;
+    font-weight: 700;
+    font-size: 35px;
+  }
+  .stores {
+    padding: 20px 0px;
+    
+    
+  }
+  
+  .stores img {
+    width: 130px;
+    max-width: 100%; 
+    padding: 2px;
+  }
+  .aboutReview {
+    width: 100%;
+    margin-top: 60px;
+    max-width: 1000px;
+  }
+  .aboutReview h1{
+    font-size: 35px;
+  }
+  .aboutReview p{
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .aboutReview button{
+    border: none;
+    background: #09C950;
+    height: 40px;
+    text-align: center;
+    outline: none;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 35px;
+    cursor: pointer;
+  }
+  .startSection{
+    background-color: #303030;
+    width: 100%;
+    height: 300px;
+    margin-top: 60px;
+ 
+  }
+  .reviews{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+  }
+  
+  .features{
+    text-align: center;
+    padding-top: 35px;
+  }
+  .text p{
+    margin: 0;
+    color: #09C950;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .text h2{
+    color: white;
+    margin: 0;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 11px;
+  }
+
+  .styleCards {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 28px;
+    box-shadow: 0px 1px 15px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .card h2 {
+    font-weight: 700;
+    font-size: 1.0rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  .card p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #7A7A7A;
+  }
+  
+  .exploreMore {
+    color: #09C950 !important;
+    font-weight: bold;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .exploreMore svg {
+    margin-left: 0.5rem;
+  }
+  .highlight h2, .highlight p, .highlight .exploreMore {
+    color: #fff;
+  }
+.advantages{
+  margin-top: 60px;
+}
+.advantages p{
+  color:#7A7A7A;
+  text-align: start;
+  margin-bottom: 0;
+}
+  .advantages img{
+    margin-top: 20px;
+    
+  }
+  .reviews h1{
+    font-weight: 600;
+    font-size: 38px;
+    margin: 0;
+  }
+  .reviews p{
+    font-size: 1p3x;
+    margin-top: 20px;
+    color: #828282;
+    margin-bottom: 50px;
+  }
+  .reviewsSection {
+    padding: 0px 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .heading {
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  
+  .carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .reviewCard {
+    border-radius: 10px;
+    text-align: center;
+  }
+  .reviewCard h4 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .stars {
+    color: #ffc107;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .reviewText {
+    font-size: 15px;
+    color: #424242;
+    width: 500px;
+    height: 77px;
+
+  }
+  
+  .reviewerImage {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  .downloadSection {
+    padding: 70px 10px;
+  }
+  
+  .downloadSection h1 {
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0;
+  }
+  
+  .downloadSection p {
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: 600;
+    color: #666666;
+    
+  }
+  
+  .downloadSection .stores a img {
+    max-width: 150px; /* Adjust size of store icons */
+  }
+
+  
+  .reviewerName {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #757575;
+  }
+  
+  .arrow {
+    font-size: 2rem;
+    cursor: pointer;
+    color: #555;
+    background: transparent;
+    outline: none;
+    border: none;
+  }
+  .footerSection{
+    background-color:#09C950 ;
+    padding: 25px;
+  }
+  ul li{
+    padding: 0px 5px;
+    color: #FFFFFF;
+}
+ul li a{
+    font-size: 16px;
+}
+.navButton{
+    border: none;
+    width: 90px;
+    background: #ffffff;
+    height: 40px;
+    outline: none;
+    color: #09C950;
+    border-radius: 8px;
+}
+.navButton a{
+  color: white;
+}
+.bottomtext{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.bottomtext p{
+  padding-top: 10px;
+  color: #09C950;
+  font-weight: 600;
+
+}
+.list{
+  display: flex;
+  align-items: center;
+}
+  .list li {
+    list-style: none;
+    padding: 0px 20px;
+    margin: 0;
+  color: #09C950;
+   font-weight: 600;
+  }
+  /* General Footer Styles */
+  .copyRights {
+    background-color: white;
+    color: #09C950;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  p {
+    margin: 0;
+    font-size: 12px;
+    color: #09C950;
+
+  }
+  
+  .list {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .link {
+    color: #09C950;
+
+    text-decoration: none;
+    font-size: 2px;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 768px) {
+    .container {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  
+    .list {
+      gap: 2px;
+    }
+  
+    .link {
+      font-size: 13px;
+    }
+  }
+  
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.cardStyle{
+  justify-content: center;
+  gap: 12px;
+  padding: 0px 15px;
+  display: "flex",
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home h1 {
+    font-size: 1.5rem; 
+  }
+  .reviews{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .reviewText {
+    font-size: 15px;
+    color: #424242;
+    margin-bottom: 20px;
+    width: 220px;
+    height: 77px;
+  }
+  .reviews h1{
+    font-weight: 700;
+    font-size: 1.5rem; 
+
+    margin: 0;
+  }
+
+  .home p {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .stores img {
+    width: 100px; 
+    padding: 2px;
+  }
+  .stores {
+    width: 100%;
+    padding: 18px 0px;
+}
+  .downloadSection {
+    text-align: center;
+  }
+
+  .downloadSection .stores a img {
+    max-width: 120px; 
+  }
+
+  .downloadSection p {
+    font-size: 14px;
+  }
+  .downloadSection h1{
+    font-size: 1.5rem; 
+
+  }
+  .advantages span img{
+    width: 23%;
+    
+  }
+  .text h2{
+   font-size: 1.5rem;
+  }
+  .card img{
+    width: 25%;
+  }
+  .reviewCard img{
+    width: 25%;
+  }
+  .listbar{
+    margin-inline: auto;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .heading {
+    font-size:  1.5rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  .advantages h2{
+    font-size: 10px;
+  }
+  .footerNav{
+    flex-direction: column;
+  }
+  .cardStyle{
+    padding: 0px 33px;
+  }
+  .advantages{
+    margin-top: 10px;
+  }
+}
+
+  @media (max-width: 576px) {
+    .home h1 {
+      font-size: 1.5rem; 
+    }
+    .reviews{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .reviewText {
+      font-size: 15px;
+      color: #424242;
+      margin-bottom: 20px;
+      width: 220px;
+      height: 77px;
+    }
+    .reviews h1{
+      font-weight: 700;
+      font-size: 1.5rem; 
+
+      margin: 0;
+    }
+  
+    .home p {
+      font-size: 14px;
+      margin-top: 20px;
+    }
+  
+    .stores img {
+      width: 100px; 
+    }
+    .stores {
+      width: 100%;
+      padding: 18px 0px;
+  }
+    .downloadSection {
+      text-align: center;
+    }
+  
+    .downloadSection .stores a img {
+      max-width: 120px; 
+    }
+  
+    .downloadSection p {
+      font-size: 14px;
+    }
+    .downloadSection h1{
+      font-size: 1.5rem; 
+
+    }
+    .advantages span img{
+      width: 18%;
+      
+    }
+    .text h2{
+     font-size: 1.1rem;
+    }
+    .card img{
+      width: 25%;
+    }
+    .reviewCard img{
+      width: 25%;
+    }
+    .listbar{
+      margin-inline: auto;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .heading {
+      font-size:  1.5rem;
+      font-weight: 600;
+      margin-bottom: 30px;
+    }
+    .advantages h2{
+      font-size: 1.5rem;
+    }
+    .footerNav{
+      flex-direction: column;
+    }
+    .cardStyle{
+      padding: 0px 33px;
+    }
+    .list{
+      display: none;
+    }
+    .copyRights{
+      background-color: black;
+    }
+    .copyRights p{
+      color: white;
+    }
+  }
+
+  
